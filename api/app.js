@@ -45,7 +45,3 @@ app.post("/api/scrape", async (req, res) => {
       .json({ error: "An error occurred while getting the data." });
   }
 });
-
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
