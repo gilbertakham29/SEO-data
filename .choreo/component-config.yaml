@@ -1,0 +1,10 @@
+# Example Choreo Component Config
+
+components:
+  - name: my-api
+    type: http
+    settings:
+      runtime: nodejs12.x
+      environment:
+        NODE_ENV: production
+      # Add more settings as needed
