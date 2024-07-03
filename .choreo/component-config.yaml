@@ -1,8 +1,10 @@
 # Example Choreo Component Config
 
 components:
-  - name: my-api
-    type: http
+  - name: seo-info
+    port: 3000
+    type: REST
+    networkVisibility: Public
     settings:
       runtime: nodejs12.x
       environment:
