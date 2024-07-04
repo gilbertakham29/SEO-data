@@ -3,7 +3,7 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import bodyParser from 'body-parser';
 const app = express();
-const port = 8080;
+const port = 6000;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.get('/api', (req, res) => {
